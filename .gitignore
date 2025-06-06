@@ -1,3 +1,11 @@
+# Project-specific
+.metadata*
+.Trash*
+boot_out.txt
+System Volume Information/
+sd/
+.fseventsd/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -95,7 +103,7 @@ ipython_config.py
 #Pipfile.lock
 
 # UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   Similar to Pipfile.lock, it sis generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
 #uv.lock
@@ -128,6 +136,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+*.toml
 .env
 .venv
 env/
